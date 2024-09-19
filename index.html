@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #efeeee;
+  border-radius: 8px;
+  box-shadow: 0 8px 15px rgba(87, 76, 76, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  margin: 20px;
+}
+
+.card img {
+  border-radius: 5%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+ 
+<div class="card-container">
+  <div class="card">
+    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="Nrupul Dev">
+    <h2>Nrupul Dev</h2>
+    <p>Co-Founder & CTO</p>
+    <p>IIT, Kanpur</p>
+  </div>
+
+  <div class="card">
+    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/aman_fbbc8625a4.jpg" alt="Aman Vats">
+    <h2>Aman Vats</h2>
+    <p>Senior Director - Curriculum & Outcomes</p>
+    <p>ex-EXL, BIT Mesra</p>
+  </div>
+
+  <div class="card">
+    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/venu_6e7cabff61.jpeg" alt="Venugopal Panchumarthi">
+    <h2>Venugopal Panchumarthi</h2>
+    <p>University of Hyderabad</p>
+  </div>
+
+  <div class="card">
+    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Ak2_1_Akshay_Gupta_dd64b6f620.jpeg" alt="Akshay Kumar Gupta">
+    <h2>Akshay Kumar Gupta</h2>
+    <p>IIIT, Alahabad</p>
+  </div>
+</div>
+
+</body>
+</html>
